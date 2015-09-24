@@ -8,4 +8,7 @@ public abstract class Shape {
 	public abstract Rectangle getBounds();
 	
 	public abstract Point getCenter();
+	
+	
+	
 }
