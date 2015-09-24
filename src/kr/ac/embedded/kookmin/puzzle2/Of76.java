@@ -5,16 +5,20 @@ interface Nose {
 }
 
 abstract class Picasso implements Nose {
-	/** **/
+	public int iMethod(){
 		return 7;
 	}
 }
 
-class Clowns extends /** **/ {
+class Clowns extends Picasso {
+	
+	public int iMethod(){
+		return 7;
+	}
 }
 
 class Acts extends Picasso {
-	/** **/
+	public int iMethod(){
 		return 5;
 	}
 }
